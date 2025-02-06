@@ -41,5 +41,9 @@ if re.match(r'[aeiouAEIOU]', mine):
 else:
      print("The Letter is a Consonant")
 
-
-
+#second method for checking if a letter is a leap year or not
+letter2 = "t"
+if letter2 == 'a' or letter2 == 'e' or letter2 == 'i' or letter2 == 'o' or letter2 == 'u':
+    print("The Letter is a Vowel")
+else:
+    print("The Letter is a Consonant")
